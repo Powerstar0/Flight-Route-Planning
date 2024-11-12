@@ -1,9 +1,6 @@
 # Flight Route Planning
 
-With Permission and Assistance of Duy Lam dplb6c@umkc.edu
-
-Authors: Johnny Diep jd53q@umkc.edu, Steven Pham sdprg3@umkc.edu, and Duy Lam (Duy Lam is currently in another Hack-a-roo group but has given permission for us to use this project)
-
+Authors: Johnny Diep jd53q@umkc.edu, Steven Pham sdprg3@umkc.edu, and Duy Lam dplb6c@umkc.edu
 ## Introduction
 
 This project investigates airport traffic data from 2014 to provide a comprehensive view of global connectivity among airports. By examining flight routes and worldwide airport networks, the project builds a detailed database that reveals the structure and dynamics of global air traffic. This database identifies key hubs, high-traffic routes, and regional connectivity, offering insights into the busiest and most critical nodes that link different parts of the world. The 2014 snapshot also serves as a valuable historical benchmark, helping to inform future studies on how air traffic networks evolve over time and aiding in strategic planning for infrastructure and resources within the aviation industry. To complement the data analysis, the project generates a visual network map, displaying each airport as a node and each flight route as an edge. This graphical representation enhances our understanding of global air traffic, emphasizing dense traffic regions and the significance of major hubs in facilitating international connectivity.
