@@ -48,7 +48,19 @@ Additionally, when running the program you can:
 
 <img width="323" alt="Screenshot 2024-11-11 at 8 31 34 PM" src="https://github.com/user-attachments/assets/6c313307-e635-4ba0-bf1c-4a25358d6f49">
 
-## 
+## Findings
+
+This project offers an innovative approach to visualizing and analyzing airport networks using an interactive HTML map. By representing airports as nodes and traffic as lines, the project makes it easy to understand complex connections and identify key patterns in air travel. The features of calculating the shortest route between airports, identifying unconnected nodes, and analyzing the most outgoing traffic provide valuable insights for a variety of users, from travelers to transportation planners. 
+
+The shortest route calculation feature is significant for optimizing travel plans, helping users find the most efficient connections between airports. The unconnected nodes tool highlights potential gaps in the network, which could inform decisions for infrastructure expansion or route development. Additionally, the most outgoing traffic analysis offers a deeper understanding of airport utilization, allowing airport authorities and airlines to better manage resources and operations at busy hubs. 
+
+The innovation lies in how these features are integrated into an interactive map that users can explore in real-time, making the data more accessible and actionable. The project’s ability to turn complex airport network data into an interactive, user-friendly tool has the potential to improve decision-making and efficiency in the airline industry.
+
+In all, this project successfully generated an HTML map to represent a network of airports as nodes and their traffic connections as lines. The key functionality provided includes a route-finding feature to determine the shortest path between two airports, a tool to identify unconnected nodes from a specific airport, and a feature to shows airports with the most outgoing and incoming flights. These features enable users to analyze the network's structure, identify isolated airports, and gain insights into traffic patterns. 
+
+## Future Work
+
+Future enhancements to this project include integrating live data, utilizing the Google Maps API, and expanding program features. Planned features could estimate costs based on real-time rates, predict fuel usage, account for different airlines, and incorporate layovers. Additionally, machine learning models could be implemented to predict future expansions, flight routes, and pricing trends. Enhancing the front-end and user interface will also make the program more accessible and user-friendly.
  
 
 
