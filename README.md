@@ -2,7 +2,7 @@
 
 With Permission and Assistance of Duy Lam dplb6c@umkc.edu
 
-Authors: Johnny Diep jd53q@umkc.edu, Steven Pham sdprg3@umkc.edu, and Duy Lam (Duy Lam is currently in another Hack-a-roo group but has given permission for us to use this project for our own)
+Authors: Johnny Diep jd53q@umkc.edu, Steven Pham sdprg3@umkc.edu, and Duy Lam (Duy Lam is currently in another Hack-a-roo group but has given permission for us to use this project)
 
 ## Introduction
 
