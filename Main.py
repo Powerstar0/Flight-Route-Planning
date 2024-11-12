@@ -36,7 +36,7 @@ Options:
         distances = dijkstra(g, starting_airport)
 
         # Output the shortest distances from "LAX" to all other nodes, sorted by distance
-        print(f"\nShortest distances from airport {starting_airport}:")
+        print(f"\nShortest distances from airport {starting_airport} to {ending_airport}:")
 
         # Sort the distances by value (distance) and print the results
         for node, distance in sorted(distances.items(), key=lambda item: item[1]):
@@ -45,19 +45,19 @@ Options:
                 break
     elif (userinput == "2"):
         # To print the top 5 nodes with the most outgoing edges
-        print("Top 5 nodes with the most outgoing flights:")
+        print("Top 5 airports with the most outgoing flights:")
         for node, count in g.nodes_with_most_outgoing():
             print(f"Airport: {node}, Outgoing flights: {count}")
 
         # To print the top 5 nodes with the most incoming edges
-        print("\nTop 5 nodes with the most incoming flights:")
+        print("\nTop 5 airports with the most incoming flights:")
         for node, count in g.nodes_with_most_incoming():
             print(f"Airport: {node}, Incoming flights: {count}")
     elif (userinput == "3"):
         starting_airport = input("What is the starting hub? (3 letter IATA code): ")
         unreachable_airports = find_unreachable_airports(g, starting_airport)
         print(f"Airports that cannot be reached from {starting_airport}: {unreachable_airports}")
-    elif (userinput == "q"):
+    elif (userinput == "4"):
         break
     else:
         print("Invalid Input")
