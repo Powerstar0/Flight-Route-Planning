@@ -24,3 +24,32 @@ The dataset for this study, sourced from openflight.org (2014), includes over 65
 Dijkstra's algorithm was applied to determine the shortest paths between airports and to identify any inaccessible airports from each node. Distances were calculated in kilometers by converting latitude and longitude differences, which improves clarity. On the resulting map, node sizes reflect the number of connections each airport has, with larger nodes representing more interconnected hubs in the network. An HTML file listing all airports and routes is also automatically generated.
 
 ## Models
+
+For the full interactive model, please open the HTML file. However, here are a few snapshots:
+
+<img width="1123" alt="Screenshot 2024-11-11 at 8 15 31 PM" src="https://github.com/user-attachments/assets/a3d9bbfa-95d1-4610-bb7b-b33bbb78e36f">
+
+<img width="1677" alt="Screenshot 2024-11-11 at 7 07 28 PM" src="https://github.com/user-attachments/assets/919459b5-ab19-4c2c-84ec-e2493319a353">
+
+<img width="179" alt="Screenshot 2024-11-11 at 8 25 04 PM" src="https://github.com/user-attachments/assets/2ec6d9b7-c592-4eb7-b923-b679f0482023">
+
+Additionally, when running the program you can:
+
+1) Find the shortest distance between two airports
+  
+<img width="343" alt="Screenshot 2024-11-11 at 8 31 19 PM" src="https://github.com/user-attachments/assets/6b083735-38dd-4235-a5c0-e705bd370bd5">
+
+
+2) Find the top 5 airports with the most outgoing and incoming flights
+
+<img width="325" alt="Screenshot 2024-11-11 at 8 31 30 PM" src="https://github.com/user-attachments/assets/dff78b18-ed38-482f-a3b7-4dbe187b720b">
+
+3) Find unreachable airports from your starting hub
+
+<img width="323" alt="Screenshot 2024-11-11 at 8 31 34 PM" src="https://github.com/user-attachments/assets/6c313307-e635-4ba0-bf1c-4a25358d6f49">
+
+## 
+ 
+
+
+
